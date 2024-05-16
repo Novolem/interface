@@ -1,0 +1,8 @@
+components/ui/**
+.eslintrc.js
+next.config.js
+postcss.config.js
+**/*.mdx
+mdx-components.tsx
+*.config.ts
+abi/
