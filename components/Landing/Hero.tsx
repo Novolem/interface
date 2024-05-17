@@ -1,8 +1,8 @@
 /* eslint-disable max-len */
 "use client";
 import React from "react";
-import { BackgroundBeams } from "../ui/aceternity/BackgroundBeams";
-import CreateBountyCard from "../Bounty/CreateBountyCard";
+import { BackgroundBeams } from "@/components/ui/aceternity/BackgroundBeams";
+import CreateBountyCard from "@/components/Bounty/CreateBountyCard";
 
 function LandingHeroOne() {
 	return (
@@ -23,7 +23,6 @@ function LandingHeroOne() {
 
 				<div>
 					<span className="relative inline-block overflow-hidden rounded-full p-[2px] mt-3">
-						<span className="absolute inset-[-100%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
 						<div className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950/90 px-5 py-2 text-sm font-medium text-white backdrop-blur-3xl">
 							<CreateBountyCard />
 						</div>
