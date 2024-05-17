@@ -2,6 +2,7 @@ import React from "react";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import "./globals.css";
 import { Toaster } from "@/components/ui/toaster";
+import IntercomComponent from "@/components/Embed/Intercom";
 
 export const metadata = {
 	title: {
@@ -17,7 +18,7 @@ export const metadata = {
 		type: "website",
 		images: [
 			{
-				url: "https://res.cloudinary.com/dkpry5cup/image/upload/f_auto,q_auto/Heading_qp1ao3",
+				url: "https://res.cloudinary.com/dkpry5cup/image/upload/f_auto,q_auto/v1/novolem-assets/gf0uvia1dj19dbrxc1ma",
 				width: 1920,
 				height: 1080,
 				alt: "Novolem | Earn anywhere, anytime"
@@ -36,6 +37,7 @@ export default function RootLayout({
 			<body>
 				<TooltipProvider>{children}</TooltipProvider>
 				<Toaster />
+				<IntercomComponent />
 			</body>
 		</html>
 	);
